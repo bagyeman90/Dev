@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY requirements.txt ./
 
-COPY chat.py .
+COPY chatbot.py .
 
-CMD ["python", "chat.py"]
+CMD ["python", "chatbot.py"]
